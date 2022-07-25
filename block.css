@@ -1,0 +1,31 @@
+.bar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom:24px ;
+
+}
+
+.bar > .bar1{
+   
+    
+    background-color: aqua;
+    height: 100px;
+    width: calc((100% - 24px) /2) ;
+    margin: 0px 0px 0px 12px;
+ 
+}
+
+.bar > .bar2{
+
+    flex-wrap: wrap;
+    background-color: aqua;
+    height: 100px;
+    width: calc((100% - 72px) /3) ;
+    
+    
+}
